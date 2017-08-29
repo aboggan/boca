@@ -1,0 +1,25 @@
+extends layoutsaludo
+
+block content
+ nav#mainNav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+  div.container
+   div.navbar-header.page-scroll
+    a.navbar-brand.page-scroll(href='#') Museo Boquense	
+ header
+  div.video-background
+   div.video-foreground
+    iframe(src='https://www.youtube.com/embed/1ecO2vn9EpY?start=242&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=1ecO2vn9EpY')
+  div.container
+   div.intro-text
+    
+    div.intro-heading.hit-the-floor.uno.amarillo Bienvenido
+    
+
+    div.intro-lead-in.hit-the-floor.nombre 
+    div.intro-heading.hit-the-floor.dos al museo de boca
+  div.text-effect
+ h1= title
+ script(src='javascripts/jquery.voicerss-tts.min.js')
+ script(src='javascripts/papel.js')
+ script(src="javascripts/usuarios.js")
+  

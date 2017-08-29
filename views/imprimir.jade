@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1#imprimirBoton= "Tocá para imprimir"
+  div#idPulsera= idPulsera
+  div#fotos
+   img#foto1(src="images/loco.jpg")  
+   img#foto2(src="images/loco.jpg")
+  script(src="javascripts/jquery.print.js")
+  script(src="javascripts/imprimir.js")
+  

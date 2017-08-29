@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    div#mensaje 
+    h1= "Agregar Visitante"
+    div#login-box
+     div.left
+      form#formAddUser(name="adduser",method="",action="")
+        input#name(type="text", placeholder="Nombre", name="nombre")
+        input#dni(type="text", placeholder="DNI", name="dni")
+        select#idioma(name="idioma", placeholder="Idioma")
+         option(value=1) Español
+         option(value=2) Inglés
+         option(value=3) Italiano
+
+        input#idPulsera(type="text", name="idPulsera", placeholder="Acerca una pulsera" value= title) 
+        span Foto Visitante
+        input#fotoVisitante(type="file", name="pic", accept="image/*")
+        button#btnSubmit(type="submit") Agregar Visitante
+     div.right
+      a#test(href="#mensaje") 
+    script(src="javascripts/jquery.colorbox-min.js")
+    script(src="javascripts/newuser.js")
