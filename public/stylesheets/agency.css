@@ -7,6 +7,15 @@ body {
   overflow: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+@font-face {
+  font-family: 'Freshman';
+    src:  url('Freshman.ttf.woff') format('woff'),
+    url('Freshman.ttf.svg#Freshman') format('svg'),
+    url('Freshman.ttf.eot'),
+    url('Freshman.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 .text-muted {
   color: #777777;
 }
@@ -244,14 +253,14 @@ header .intro-text {
     padding-bottom: 400px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -264,14 +273,13 @@ header .intro-text .intro-heading {
     padding-bottom: 373px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -289,7 +297,6 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -356,7 +363,6 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -582,27 +588,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
@@ -616,14 +622,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   text-transform: uppercase;
   text-transform: none;
 }
@@ -679,7 +685,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   font-style: italic;
   font-size: 16px;
 }
@@ -750,44 +756,68 @@ body {
 color: #fff;
 font-size: 12em;
 font-weight: bold;
-font-family: Helvetica;
-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+font-family: 'Freshman';
+text-shadow: 0 1px 0 #FFC107, 0 2px 0 #FFEB3B, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
+
+
 
 .hit-the-floor {
   text-align: center;
 }
 
+.uno, .dos{
+  letter-spacing: 21px;
+}
+
 .uno {
-  color: #023f86;
+  color: rgb(1, 71, 144);
 }
 .dos{
-  color:#f7a600;
-  top: 226px;
+  color:rgb(1, 71, 144);
+  top: 328px;
   position: relative;
+}
+.intro-heading.hit-the-floor.dos.abajo{
+ text-transform: lowercase;
+    font-size: 30px;
+    top: 22vw;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #fed304;
+
+
+  text-shadow: none;
+}
+.intro-lead-in.hit-the-floor{
+  font-family: 'Freshman';
 }
 
 .intro-lead-in.hit-the-floor.nombre {
-    font-family: Helvetica;
-    font-size: 9vw;
+    font-family: 'Freshman';
+    font-size: 13vw;
     font-style: normal;
     
     position: relative;
-    top: 82px;;
+        top: 203px;
+    letter-spacing: 5vw;
+    z-index: 999999999;
 }
 
 .nombre, .uno, .dos{
   visibility: hidden;
 }
+.nombre{
+  font-family: 'Freshman';
+}
 .area {
   text-align: center;
   font-size: 6.5em;
-  color: #fff;
+  color: rgb(254, 211, 4);
   letter-spacing: -7px;
   font-weight: 700;
   text-transform: uppercase;
   animation: blur 4.5s ease-out  ;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+      text-shadow: 0px 0px 5px #000, 0px 0px 7px #000;
 }
 
 @keyframes blur {
@@ -833,6 +863,10 @@ text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px
   top: 0;
   color: #fff;
 }
+.container{
+  font-family: 'Freshman';
+}
+
 .vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
@@ -848,4 +882,29 @@ text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px
 }
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
+}
+
+.star-contenedor{
+  background-image: url(A_Blue_Star.png);
+}
+a.navbar-brand.page-scroll{
+      z-index: 9999;
+        position: absolute;
+    top: 104px;
+    left: 96px;
+}
+.star-content img {
+    position: absolute;
+    width: 24%;
+    z-index: 1;
+        top: 0px;
+    left: 2px;
+}
+a.navbar-brand.page-scroll.abajo {
+    margin-top: 29px;
+}
+img#mascota {
+    width: 200px;
+    position: absolute;
+    right: 0;
 }

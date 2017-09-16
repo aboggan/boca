@@ -11,7 +11,7 @@
 		maxh = 0,
 		textShadowSupport = true,
 		xv = 0, // shared wind velocity
-		colors = ['#fff', '#023f86', '#f7a600'],
+		colors = [ '#023f86', '#f7a600'],
 		confetti = ["\u2666", "\u2726", "\u25b0"],
 		prevTime,
 		absMax = 200,

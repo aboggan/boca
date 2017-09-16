@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	console.log("voy a buscar");
 	initAnimation();
-	var nombre = "FABIAN JAPO";
+	var nombre = "FABIAN";
 	$(".nombre").append(" "+nombre);
 
 	var animationFinished = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
